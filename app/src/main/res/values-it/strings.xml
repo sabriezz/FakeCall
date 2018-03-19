@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CHIAMATA FALSA</string>
+    <string name="surname">Cognome</string>
+    <string name="name">Nome</string>
+    <string name="phone_number">Numero di telefono</string>
+    <string name="submit">Aziona</string>
+    <string name="delete">Elimina</string>
+</resources>

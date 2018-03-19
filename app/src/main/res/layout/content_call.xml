@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#283933"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.studente.myapplication.call">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="246dp"
+            android:id="@+id/namePerson"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:textAlignment="center"
+                android:id="@+id/personCall"
+                android:fontFamily="@font/expletus_sans_italic"
+                android:singleLine="true"
+                android:text="ciao sono mona del cazzo"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="125dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textNumber"
+                android:fontFamily="@font/expletus_sans_italic"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:text="+393000000"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <Chronometer
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/crono"
+                android:fontFamily="@font/expletus_sans_italic"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/deny"
+                android:background="@drawable/background_red" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:id="@+id/accept"
+                android:layout_height="48dp"
+                android:layout_marginLeft="150dp"
+                android:src="@drawable/background_green" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:visibility="invisible"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/deny1"
+                android:background="@drawable/background_red" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:visibility="invisible"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/speaker"
+                android:background="@drawable/background_speaker" />
+
+            <ImageView
+                android:visibility="invisible"
+                android:layout_width="48dp"
+                android:id="@+id/front"
+                android:layout_height="48dp"
+                android:layout_marginLeft="150dp"
+                android:src="@drawable/background_front" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

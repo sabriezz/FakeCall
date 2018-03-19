@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FAKE CALL</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="delete">DELETE</string>
+    <string name="title_activity_call">call</string>
+</resources>
